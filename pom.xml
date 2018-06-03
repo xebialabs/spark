@@ -228,6 +228,18 @@
 
     <CodeCacheSize>512m</CodeCacheSize>
   </properties>
+  <distributionManagement>
+    <repository>
+      <id>xl-nexus-releases</id>
+      <name>Nexus Releases Repository</name>
+      <url>https://xl-nexus.xebialabs.com/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>xl-nexus-snapshots</id>
+      <name>Nexus Snapshot Repository</name>
+      <url>https://xl-nexus.xebialabs.com/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
   <repositories>
     <repository>
       <id>central</id>
